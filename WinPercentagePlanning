@@ -1,0 +1,8 @@
+First we gotta import the scanner thingy. Then we gotta prompt the user
+to enter the games won and total games played. So use text out before using
+a scanner. Then divide the number of games won by the total of games played
+and then multiply by 100 to get the percent. Then print that number out.
+Then I have to make it dummy proof, so this is where the if and else statements
+come into play. I'll write a if total games is < 0 then tell them it has to be
+above zero. If the total game is less than games won tell them its not possible.
+If games won is less than zero, that is also not possible.

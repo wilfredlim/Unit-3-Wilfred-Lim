@@ -19,13 +19,9 @@ public class Multiples{
     System.out.println("\nThe multiples of "+number+" up to "+limit+":\n");
     int multiple = 0;
     int count = 0;
-    for(int multiplyer = 1; multiple <= limit; multiple++){
+    for(int multiplyer = 1; multiple < limit; multiplyer++){
       multiple = (number*multiplyer);
-        if (multiple > limit){
-          break;
-        }
       System.out.print(multiple+" ");
-      multiplyer ++;
       count ++;
         if(count==5){
           System.out.println("");
